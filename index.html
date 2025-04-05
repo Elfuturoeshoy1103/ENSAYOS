@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar Correos Masivos</title>
+</head>
+<body>
+    <h2>Formulario de Envío Masivo</h2>
+    <form method="POST" action="/send">
+        <label>Asunto:</label><br>
+        <input type="text" name="subject" required><br><br>
+
+        <label>Mensaje (HTML permitido):</label><br>
+        <textarea name="message" rows="10" cols="50" required></textarea><br><br>
+
+        <label>Lista de correos (separados por coma):</label><br>
+        <textarea name="emails" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
