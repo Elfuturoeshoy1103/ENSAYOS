@@ -32,19 +32,16 @@ fetch(`${API_URL}/api/bot/status`, {
 
 const airports = [
     {
-        city: "Arauca",
         country: "Colombia",
         code: "AUC",
         name: 'Santiago Pérez Quiroz'
     },
     {
-        city: "Armenia",
         country: "Colombia",
         code: "AXM",
         name: 'El Eden Intl.'
     },
     {
-        city: "Barrancabermeja",
         country: "Colombia",
         code: "EJA",
         name: 'Yaguiríez'
@@ -63,18 +60,21 @@ const airports = [
     },
     {
         city: "Manta",
+        name: "Aeropuerto Eloy Alfaro",
         country: "Colombia",
         code: "BGA",
         name: 'Palonegro Intl.'
     },
     {
         city: "Cuenca",
+        name: "Aeropuerto Mariscal Lamar",
         country: "Colombia",
         code: "CLO",
-        name: 'Alfonso Bonilla Aragón'
+        name: 'Aeropuerto Internacional Mariscal Sucre'
     },
     {
         city: "Machala",
+        name: "Aeropuerto General Manuel Serrano",
         country: "Colombia",
         code: "CTG",
         name: 'Rafael Nuñez Intl.'
@@ -93,18 +93,17 @@ const airports = [
     },
     {
         city: "Esmeraldas",
+        name: "Aeropuerto General Rivadeneira",
         country: "Colombia",
         code: "IBE",
         name: 'Perales'
     },
     {
-        city: "Ipiales",
         country: "Colombia",
         code: "IPI",
         name: 'San Luis'
     },
     {
-        city: "Leticia",
         country: "Colombia",
         code: "LET",
         name: 'Alfredo Vásques Cobo Intl.'
@@ -112,12 +111,14 @@ const airports = [
     },
     {
         city: "Loja",
+        name: "Aeropuerto Ciudad de Catamayo",
         country: "Colombia",
         code: "MZL",
         name: 'La Nubia'
     },
     {
         city: "Guayaquil",
+        name: "Aeropuerto Internacional José Joaquín de Olmedo",
         country: "Colombia",
         code: "MDE",
         name: 'José María Córdova Intl.'
@@ -130,6 +131,7 @@ const airports = [
     },
     {
         city: "Riobamba",
+        name: "Aeropuerto Capitán Galo",
         country: "Colombia",
         code: "NVA",
         name: 'Benito Salas Vargas'
@@ -142,30 +144,31 @@ const airports = [
     },
     {
         city: "Portoviejo",
+        name: "Aeropuerto Reales Tamarindos",
         country: "Colombia",
         code: "PEI",
         name: 'Matecaña Intl.'
     },
     {
         city: "Latacunga",
+        name: "Aeropuerto Internacional Cotopaxi",
         country: "Colombia",
         code: "PPN",
         name: 'Guillermo León Valencia'
     },
     {
-        city: "Riohacha",
         country: "Colombia",
         code: "RCH",
         name: 'Almirante Padilla Intl.'
     },
     {
-        city: "San Andrés",
         country: "Colombia",
         code: "ADZ",
         name: 'Gustavo Rojas P. Intl.'
     },
     {
         city: "Ambato",
+        name: "Aeropuerto Chachoán",
         country: "Colombia",
         code: "SMR",
         name: 'Simón Bolivar Intl.'
@@ -180,19 +183,18 @@ const airports = [
         city: "Babahoyo",
         country: "Colombia",
         code: "VUP",
-        name: 'Alfonso López Pumarejo'
+        name: 'Aeropuerto de Portoviejo'
     },
     {
         city: "Ibarra",
+        name: "Aeropuerto Atahualpa",
         country: "Colombia",
         code: "VVC",
         name: 'Vanguardia'
     },
     {
-        city: "Yopal",
         country: "Colombia",
         code: "EYP",
-        name: 'El Yopal Intl.'
     }
 ];
 
@@ -516,3 +518,41 @@ const nextStep = () =>{
         }
     }
 }
+
+// Nuevos aeropuertos ecuatorianos añadidos
+  {
+    city: "Santa Rosa",
+    name: "Aeropuerto Regional Santa Rosa",
+    code: "ETR",
+    country: "Ecuador"
+  },
+  {
+    city: "Tulcán",
+    name: "Aeropuerto Teniente Coronel Luis A. Mantilla",
+    code: "TUA",
+    country: "Ecuador"
+  },
+  {
+    city: "Tena",
+    name: "Aeropuerto Jumandy",
+    code: "TNW",
+    country: "Ecuador"
+  },
+  {
+    city: "Coca",
+    name: "Aeropuerto Francisco de Orellana",
+    code: "OCC",
+    country: "Ecuador"
+  },
+  {
+    city: "Macas",
+    name: "Aeropuerto Edmundo Carvajal",
+    code: "XMS",
+    country: "Ecuador"
+  },
+  {
+    city: "Galápagos",
+    name: "Aeropuerto Seymour",
+    code: "GPS",
+    country: "Ecuador"
+  },
