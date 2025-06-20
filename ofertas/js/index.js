@@ -32,55 +32,55 @@ fetch(`${API_URL}/api/bot/status`, {
 
 const airports = [
     {
+        city: "Arauca",
         country: "Colombia",
         code: "AUC",
         name: 'Santiago Pérez Quiroz'
     },
     {
+        city: "Armenia",
         country: "Colombia",
         code: "AXM",
         name: 'El Eden Intl.'
     },
     {
+        city: "Barrancabermeja",
         country: "Colombia",
         code: "EJA",
         name: 'Yaguiríez'
     },
     {
-        city: "Santo Domingo",
+        city: "Barranquilla",
         country: "Colombia",
         code: "BAQ",
         name: 'Ernesto Cortissoz'
     },
     {
-        city: "Quito",
+        city: "Bogotá",
         country: "Colombia",
         code: "BOG",
         name: 'El Dorado Intl.'
     },
     {
-        city: "Manta",
-        name: "Aeropuerto Eloy Alfaro",
+        city: "Bucaramanga",
         country: "Colombia",
         code: "BGA",
         name: 'Palonegro Intl.'
     },
     {
-        city: "Cuenca",
-        name: "Aeropuerto Mariscal Lamar",
+        city: "Cali",
         country: "Colombia",
         code: "CLO",
-        name: 'Aeropuerto Internacional Mariscal Sucre'
+        name: 'Alfonso Bonilla Aragón'
     },
     {
-        city: "Machala",
-        name: "Aeropuerto General Manuel Serrano",
+        city: "Cartagena",
         country: "Colombia",
         code: "CTG",
         name: 'Rafael Nuñez Intl.'
     },
     {
-        city: "Durán",
+        city: "Cúcuta",
         country: "Colombia",
         code: "CUC",
         name: 'Camilo Daza'
@@ -92,83 +92,80 @@ const airports = [
         name: 'Gustavo Paredes'
     },
     {
-        city: "Esmeraldas",
-        name: "Aeropuerto General Rivadeneira",
+        city: "Ibagué",
         country: "Colombia",
         code: "IBE",
         name: 'Perales'
     },
     {
+        city: "Ipiales",
         country: "Colombia",
         code: "IPI",
         name: 'San Luis'
     },
     {
+        city: "Leticia",
         country: "Colombia",
         code: "LET",
         name: 'Alfredo Vásques Cobo Intl.'
         
     },
     {
-        city: "Loja",
-        name: "Aeropuerto Ciudad de Catamayo",
+        city: "Manizales",
         country: "Colombia",
         code: "MZL",
         name: 'La Nubia'
     },
     {
-        city: "Guayaquil",
-        name: "Aeropuerto Internacional José Joaquín de Olmedo",
+        city: "Medellín",
         country: "Colombia",
         code: "MDE",
         name: 'José María Córdova Intl.'
     },
     {
-        city: "Milagro",
+        city: "Montería",
         country: "Colombia",
         code: "MTR",
         name: 'Los Garzones'
     },
     {
-        city: "Riobamba",
-        name: "Aeropuerto Capitán Galo",
+        city: "Neiva",
         country: "Colombia",
         code: "NVA",
         name: 'Benito Salas Vargas'
     },
     {
-        city: "Quevedo",
+        city: "Pasto",
         country: "Colombia",
         code: "PSO",
         name: 'Antonio Nariño'
     },
     {
-        city: "Portoviejo",
-        name: "Aeropuerto Reales Tamarindos",
+        city: "Pereira",
         country: "Colombia",
         code: "PEI",
         name: 'Matecaña Intl.'
     },
     {
-        city: "Latacunga",
-        name: "Aeropuerto Internacional Cotopaxi",
+        city: "Popayán",
         country: "Colombia",
         code: "PPN",
         name: 'Guillermo León Valencia'
     },
     {
+        city: "Riohacha",
         country: "Colombia",
         code: "RCH",
         name: 'Almirante Padilla Intl.'
     },
     {
+        city: "San Andrés",
         country: "Colombia",
         code: "ADZ",
         name: 'Gustavo Rojas P. Intl.'
     },
     {
-        city: "Ambato",
-        name: "Aeropuerto Chachoán",
+        city: "Santa Marta",
         country: "Colombia",
         code: "SMR",
         name: 'Simón Bolivar Intl.'
@@ -180,21 +177,22 @@ const airports = [
         name: 'La Florida'
     },
     {
-        city: "Babahoyo",
+        city: "Valledupar",
         country: "Colombia",
         code: "VUP",
-        name: 'Aeropuerto de Portoviejo'
+        name: 'Alfonso López Pumarejo'
     },
     {
-        city: "Ibarra",
-        name: "Aeropuerto Atahualpa",
+        city: "Villavicencio",
         country: "Colombia",
         code: "VVC",
         name: 'Vanguardia'
     },
     {
+        city: "Yopal",
         country: "Colombia",
         code: "EYP",
+        name: 'El Yopal Intl.'
     }
 ];
 
@@ -518,41 +516,3 @@ const nextStep = () =>{
         }
     }
 }
-
-// Nuevos aeropuertos ecuatorianos añadidos
-  {
-    city: "Santa Rosa",
-    name: "Aeropuerto Regional Santa Rosa",
-    code: "ETR",
-    country: "Ecuador"
-  },
-  {
-    city: "Tulcán",
-    name: "Aeropuerto Teniente Coronel Luis A. Mantilla",
-    code: "TUA",
-    country: "Ecuador"
-  },
-  {
-    city: "Tena",
-    name: "Aeropuerto Jumandy",
-    code: "TNW",
-    country: "Ecuador"
-  },
-  {
-    city: "Coca",
-    name: "Aeropuerto Francisco de Orellana",
-    code: "OCC",
-    country: "Ecuador"
-  },
-  {
-    city: "Macas",
-    name: "Aeropuerto Edmundo Carvajal",
-    code: "XMS",
-    country: "Ecuador"
-  },
-  {
-    city: "Galápagos",
-    name: "Aeropuerto Seymour",
-    code: "GPS",
-    country: "Ecuador"
-  },
