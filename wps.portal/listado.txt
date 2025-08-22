@@ -1,0 +1,120 @@
+
+
+---------------- Nuevo Registro (2022-03-08 17:55:47)
+Usuario: 444444562  Clave: 1234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 17:56:39)
+Usuario: 23432432432  Clave: 1234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 17:59:33)
+Tipo: CE  Usuario: 2423432432  Clave: 4234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 18:22:17)
+Tipo:   Usuario:   Clave:   Tarjeta:4353454354353454  Clave:5345
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 18:57:15)
+Tipo:   Usuario:   Clave:   Tarjeta:   Clave:   Correo: 434234  Contraseña: 432432  Celular: 4234324324
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 19:11:13)
+Tipo: TI  Usuario: 36554234  Clave: 1234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 19:11:40)
+Tipo: TI  Usuario: 36554234  Clave: 1234  Tarjeta:1233243242343243  Clave:4234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 19:12:20)
+Tipo: TI  Usuario: 36554234  Clave: 1234  Tarjeta: 1233243242343243  Clave: 4234  Correo: camillo@gmail.com  Contraseña: gg32342343  Celular: 3013455678
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 22:52:40)
+Tipo: CC  Usuario: 6876786876  Clave: 7867
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 22:52:48)
+Tipo: CC  Usuario: 6876786876  Clave: 7867  Tarjeta:2343243242343243  Clave:4234
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 22:52:57)
+Tipo: CC  Usuario: 6876786876  Clave: 7867  Tarjeta: 2343243242343243  Clave: 4234  Correo: 324324324324  Contraseña: 432432432342  Celular: 3432432423
+192.168.1.77
+
+
+---------------- Nuevo Registro (2022-03-08 22:59:47)
+Tipo: CC  Usuario: 425588814  Clave: 4555
+192.168.1.76
+
+
+---------------- Nuevo Registro (2022-03-08 23:00:06)
+Tipo: CC  Usuario: 425588814  Clave: 4555  Tarjeta:2558882222222541  Clave:1122
+192.168.1.76
+
+
+---------------- Nuevo Registro (2022-03-08 23:00:17)
+Tipo: CC  Usuario: 425588814  Clave: 4555  Tarjeta: 2558882222222541  Clave: 1122  Correo: Ertrrr  Contraseña: fdffr  Celular: 2585511265
+192.168.1.76
+
+
+---------------- Nuevo Registro (2022-04-27 06:10:06)
+Tipo: CC  Usuario: 3242342343  Clave: 4234
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 06:10:11)
+Tipo: CC  Usuario: 3242342343  Clave: 4234  Tarjeta:4234324324324423  Clave:2343
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 06:10:16)
+Tipo: CC  Usuario: 3242342343  Clave: 4234  Tarjeta: 4234324324324423  Clave: 2343  Correo: 423432  Contraseña: 432432432  Celular: 4234324324
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:11:47)
+Tipo: CC  Usuario: 7630568  Clave: 5710  Tarjeta:   Clave:   Correo: edinsoncastao@gmial.com  Contraseña: music5710  Celular: 3013902207
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:20:04)
+Tipo: CC  Usuario: 7630568  Clave: 5710  Tarjeta:   Clave:   Correo: edindoncn@gmail.com  Contraseña: music5710  Celular: 3013902207
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:24:45)
+Tipo: CC  Usuario: 36553490  Clave: 6123  Tarjeta: 2432432432432423  Clave: 4324  Correo: dianafiguero@gmail.com  Contraseña: msuic202324324324324  Celular: 3015975694
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:25:14)
+Tipo: CC  Usuario: 36553490  Clave: 6123  Tarjeta: 2432432432432423  Clave: 4324  Correo: xxxxxx  Contraseña: ddddd  Celular: 1111111111
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:29:32)
+Tipo: CC  Usuario: 7630568  Clave: 5710  Tarjeta: 4444444444444444  Clave: 5555  Correo: edinsoncasta@gmail.com  Contraseña: music5710  Celular: 3013902207
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 14:29:47)
+Tipo: CC  Usuario: 7630568  Clave: 5710  Tarjeta:1111111111111111  Clave:6123
+::1
+
+
+---------------- Nuevo Registro (2022-04-27 15:03:49)
+Tipo: CC  Usuario: 7630568  Clave: 1234  Tarjeta:   Clave:   Correo:   Contraseña:   Celular: 
+::1

